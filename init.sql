@@ -1,4 +1,4 @@
-drop schema Payoneer;
+drop schema if exists Payoneer;
 Create Schema Payoneer;
 Create Table Payoneer.Customers (Customer_ID int NOT NULL AUTO_INCREMENT,Customer_Status tinyint, Customer_Create_date datetime, PRIMARY KEY (Customer_ID));
 
